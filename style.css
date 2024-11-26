@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+p{
+  font-weight: 300 !important;
+}
+
+.topHead {
+  width: 90vw;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.topHead img {
+  width: 20vw;
+}
+
+.topDetails {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.topDetails h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  color: green;
+}
+
+.orderDetails {
+  margin-top: 20px;
+}
+
+.orderDetails h2 {
+  color: black;
+  font-size: 20px;
+}
+
+.wholeSellersDetails {
+  margin-top: 10px;
+}
+
+.wholeSellersDetails .wholeSeller {
+  margin-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.lastDetails {
+  margin-top: 15px;
+}
+
+
+.btnBlue {
+  padding: 10px 20px;
+  background-color: #00BAFF;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.bottomLogo {
+  width: 20vw;
+  margin-left: -4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+@media (max-width: 500px) {
+  body {
+    padding: 10px 20px;
+  }
+
+  .topDetails h2 {
+    font-size: 20px !important;
+    margin-top: 20px;
+  }
+
+  .orderDetails h2 {
+    font-size: 16px !important;
+  }
+
+  .wholeSeller p {
+    font-size: 12px !important;
+  }
+
+  .wholeSeller h4 {
+    font-size: 13px !important;
+  }
+
+  .wholeSeller b {
+    font-size: 14px;
+  }
+
+  .topHead img {
+    width: 70vw;
+  }
+
+  .bottomLogo {
+    width: 70vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .btnBlue {
+    width: 89vw;
+    margin: 0px auto;
+    padding: 15px 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: -5px;
+    justify-content: center;
+  }
+}
